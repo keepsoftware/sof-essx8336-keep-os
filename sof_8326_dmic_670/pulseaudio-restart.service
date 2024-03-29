@@ -1,0 +1,10 @@
+[Unit]
+Description=Restart PulseAudio after resume
+After=suspend.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/pulserst.sh post
+
+[Install]
+WantedBy=suspend.target
