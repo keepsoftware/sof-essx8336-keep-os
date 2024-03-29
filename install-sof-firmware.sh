@@ -18,6 +18,9 @@
     sudo ./ucm.sh # Install ucm
     echo "ucm installed successfully" 
 
+    sudo chmod +x ./pulseaudio.sh
+    sudo ./pulseaudio.sh
+
 
 )
 
