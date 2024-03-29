@@ -1,9 +1,9 @@
 #!/bin/bash
 
 (
-    cd ./sof_8326_dmic_6670
+    cd ./sof_8326_dmic_670
     echo "Start copying topology files..."
-    tar -xvf data.tar -C /
+    #tar -xvf data.tar -C /
     
     cp ./tplg/*.tplg /lib/firmware/intel/sof-tplg/ # Copy tplg files
     echo "tplg files copied successfully"

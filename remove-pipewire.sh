@@ -2,8 +2,8 @@
 
 echo "--- Setting up PULSEAUDIO and remove PIPEWIRE ---"
 apt-get update
-apt-get install pulseaudio pulseaudio-utils pulseaudio-module-bluetooth 
-apt-get remove --purge pipewire*
+apt-get -y install pulseaudio pulseaudio-utils pulseaudio-module-bluetooth 
+apt-get -y remove --purge pipewire*
 
 echo "=== Done!"
 exit 0
